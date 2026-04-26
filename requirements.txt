@@ -1,0 +1,15 @@
+opencv-python==4.8.1.78
+easyocr==1.7.0
+numpy==1.26.4
+pandas==2.0.3
+matplotlib==3.7.2
+Pillow==10.0.0
+python-dotenv==1.0.0
+pymongo>=4.6.0
+yt-dlp[default]>=2024.12.0
+pyyaml>=6.0
+# For GPU: install PyTorch with CUDA after the above, e.g.:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+
+# YOLO training / inference (optional — needed for train.py and --yolo flag)
+# ultralytics>=8.0.0

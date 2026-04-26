@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Output / analysis results
+output/
+results/
+debug_output/
+
+# Videos (large binary files)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# YOLO training runs and base weights
+runs/
+yolov8*.pt
+yolo*.pt
+*.pt
+*.onnx
+
+# Dataset (generated — recreate with prepare_dataset.py)
+dataset/
+
+# Labeled frames (large image/annotation files)
+labeled_frames/
+
+# EasyOCR models (downloaded automatically)
+.easyocr/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and secrets
+.env
